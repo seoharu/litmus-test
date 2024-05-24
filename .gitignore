@@ -1,0 +1,7 @@
+.cache/
+.vscode-server/
+problems/
+problems_backup/
+.git/
+pdfoid/
+texoid/

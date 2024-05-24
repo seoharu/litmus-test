@@ -1,0 +1,86 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.5.0
+2 info using node@v18.20.2
+3 timing npm:load:whichnode Completed in 107ms
+4 timing config:load:defaults Completed in 59ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 188ms
+6 timing config:load:builtin Completed in 238ms
+7 timing config:load:cli Completed in 99ms
+8 timing config:load:env Completed in 105ms
+9 timing config:load:file:/home/ubuntu/.cache/typescript/4.8/.npmrc Completed in 12ms
+10 timing config:load:project Completed in 74ms
+11 timing config:load:file:/home/ubuntu/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 57ms
+13 timing config:load:file:/usr/etc/npmrc Completed in 14ms
+14 timing config:load:global Completed in 35ms
+15 timing config:load:setEnvs Completed in 39ms
+16 timing config:load Completed in 813ms
+17 timing npm:load:configload Completed in 814ms
+18 timing config:load:flatten Completed in 47ms
+19 timing npm:load:mkdirpcache Completed in 65ms
+20 timing npm:load:mkdirplogs Completed in 6ms
+21 verbose title npm install @types/node@ts4.8
+22 verbose argv "install" "--ignore-scripts" "@types/node@ts4.8" "--save-dev" "--user-agent" "typesInstaller/4.8.2"
+23 timing npm:load:setTitle Completed in 128ms
+24 timing npm:load:display Completed in 51ms
+25 verbose logfile logs-max:10 dir:/home/ubuntu/.npm/_logs/2024-05-21T06_51_34_157Z-
+26 verbose logfile /home/ubuntu/.npm/_logs/2024-05-21T06_51_34_157Z-debug-0.log
+27 timing npm:load:logFile Completed in 99ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 1957ms
+31 timing arborist:ctor Completed in 8ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 799ms
+34 timing arborist:ctor Completed in 4ms
+35 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 23359ms (cache miss)
+36 timing idealTree:userRequests Completed in 23451ms
+37 silly idealTree buildDeps
+38 silly fetch manifest @types/node@20.12.12
+39 silly placeDep ROOT @types/node@20.12.12 OK for:  want: 20.12.12
+40 silly fetch manifest undici-types@~5.26.4
+41 http fetch GET 200 https://registry.npmjs.org/undici-types 111ms (cache miss)
+42 timing idealTree:#root Completed in 141ms
+43 silly placeDep ROOT undici-types@5.26.5 OK for: @types/node@20.12.12 want: ~5.26.4
+44 timing idealTree:node_modules/@types/node Completed in 4ms
+45 timing idealTree:node_modules/undici-types Completed in 0ms
+46 timing idealTree:buildDeps Completed in 147ms
+47 timing idealTree:fixDepFlags Completed in 0ms
+48 timing idealTree Completed in 24428ms
+49 timing reify:loadTrees Completed in 24432ms
+50 timing reify:diffTrees Completed in 3ms
+51 silly reify moves {}
+52 timing reify:retireShallow Completed in 2ms
+53 timing reify:createSparse Completed in 9ms
+54 timing reify:loadBundles Completed in 0ms
+55 silly audit bulk request {
+55 silly audit   'types-registry': [ '0.1.685' ],
+55 silly audit   '@types/node': [ '20.12.12' ],
+55 silly audit   'undici-types': [ '5.26.5' ]
+55 silly audit }
+56 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz. Extracting by manifest.
+57 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.12.12.tgz. Extracting by manifest.
+58 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 209ms
+59 timing auditReport:getReport Completed in 211ms
+60 silly audit report {}
+61 timing auditReport:init Completed in 0ms
+62 timing reify:audit Completed in 213ms
+63 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz 245ms (cache miss)
+64 timing reifyNode:node_modules/undici-types Completed in 259ms
+65 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.12.12.tgz 518ms (cache miss)
+66 timing reifyNode:node_modules/@types/node Completed in 541ms
+67 timing reify:unpack Completed in 542ms
+68 timing reify:unretire Completed in 0ms
+69 timing build:queue Completed in 1ms
+70 timing build:deps Completed in 1ms
+71 timing build Completed in 1ms
+72 timing reify:build Completed in 2ms
+73 timing reify:trash Completed in 0ms
+74 timing reify:save Completed in 27ms
+75 timing reify Completed in 25333ms
+76 silly ADD node_modules/undici-types
+77 silly ADD node_modules/@types/node
+78 timing command:install Completed in 25465ms
+79 verbose exit 0
+80 timing npm Completed in 29533ms
+81 info ok
